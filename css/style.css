@@ -1,0 +1,287 @@
+/* HEADER */
+html,
+body,
+#cover {
+	height: 100%;
+	font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.paragraf {
+	font-size: 16px;
+	font-style: italic;
+	margin-bottom: 70px;
+}
+
+.btn1 {
+	background-color: #fed136;
+	border-style: none;
+	text-transform: uppercase;
+	font-size:18px;
+	padding: 20px 40px;
+}
+
+.btn1:hover {
+	background-color: #fff;
+	color: #fed136 !important;
+}
+
+.social-icons {
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+}
+
+.social-icon {
+	display: inline;
+}
+
+
+.navbar-brand {
+	font-family: "Kaushan Script", cursive;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 700;
+	color: #fed136 !important;
+}
+
+#cover {
+	background: url(../img/header/header-bg1.jpg) no-repeat center fixed;
+	height: 750px;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.fixed-top {
+	margin-top: 0;
+	background-color: #000;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.header-first-title {
+	margin-top: 20%;
+	color: #fff;
+	font-family: "Droid Serif", Serif;
+	font-size: 40px;
+	font-style: italic;
+	line-height: 40px;
+	margin-bottom: 30px;
+}
+
+.header-second-title {
+	color: #fff;
+	font-size: 75px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+a.nav-link {
+	font-size: 14px;
+	color: #fff !important;
+	transition: color 0.5s ease;
+	-webkit-transition: color 0.5s ease;
+	-moz-transition: color 0.5s ease;
+	-o-transition: color 0.5s ease;
+}
+
+a.nav-link:hover {
+	color: #fed136 !important;
+}
+
+
+/* SERCICES */ 
+
+#services {
+	padding: 110px 0;
+}
+
+.item-circle {
+	border: 3px solid #fed136;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	border-radius: 200px;
+}
+
+.services-content i {
+	color: #fed136;
+	line-height: 100px;
+}
+
+.services-content h4 {
+	font-size: 18px;
+	color: #222;
+	font-weight: 700;
+	margin-top: 24px;
+}
+
+
+.services-content p {
+	font-size: 14px;
+}
+
+/* PORTFOLIO */
+
+#portfolio {
+	background-color: #f7f7f7;
+	padding-top: 110px;
+	padding-bottom: 70px;
+}
+
+.card {
+	border-style: none;
+}
+
+.portfolio-content .row {
+	margin-bottom: 50px;
+}
+
+.portfolio-content .card-title {
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.portfolio-content .card-subtitle {
+	font-size: 14px;
+	font-style: italic;
+	font-family: "Droid Serif", Serif;
+}
+
+/* ABOUT US*/
+
+#aboutUs {
+	padding-top: 80px; 
+}
+
+.aboutUs-content .row{
+	margin-bottom: 90px;
+}
+.aboutUs-content h4 {
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.aboutUs-content p {
+	font-family: "Roboto Slab", Serif;
+	font-size: 14px;
+	color: #777;
+}
+
+.aboutUs-content .img-circle {
+	border-radius: 176px;
+	border: 7px solid #f1f1f1;
+}
+
+
+/* TEAM */
+
+#team {
+	padding-top: 120px;
+	padding-bottom: 70px;
+	background-color: #f9f9f9
+}
+
+.team-content .team-circle {
+	width: 220px;
+	height: 220px;
+	border-radius: 220px;
+	border: 6px solid #fff;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	background-color: black;
+
+}
+
+.team-content h4 {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.team-content h5 {
+	font-family: "Roboto Slab", Serif;
+	font-size: 14px;
+	color: #777;
+}
+
+
+.team-content .social-icon .fab {
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	border: 2px solid #000;
+	line-height: 26px;
+}
+
+#team p {
+	margin: 50px auto;
+	font-family: "Roboto Slab", Serif;
+	font-size: 16px;
+	color: #777;
+}
+
+/* PARTNER */
+#partner {
+	padding: 60px 0;
+}
+
+/* CONTACT */
+#contact {
+	background: url(../img/contact/map-image.png) no-repeat center fixed;
+	background-color: #000;
+	height: 750px;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding: 120px 0;
+	color: #fff;
+
+}
+
+#name, #email, #subject, #textarea {
+	width: 90%;
+	height: 50px;
+	margin-bottom: 26px;
+	border-style: none;
+	border-radius: 3px;
+	padding-left: 20px;
+	margin-left: 5%;
+	font-weight: 600;
+}
+
+ #textarea {
+ 	height: 203px;
+ }
+
+/* FOOTER */
+#footer {
+	padding: 20px 0;
+}
+
+#footer p {
+	color: #555;
+	font-weight: 700;
+	line-height: 40px;
+	font-size: 14px;
+	
+}
+
+#footer .fab{
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	line-height: 40px;
+	background-color: #000;
+}
+
+#footer .social-icon{
+	padding: 0 9px;
+	color: #fff;
+}
